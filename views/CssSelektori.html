@@ -34,7 +34,7 @@
                             <li><a href="../views/GIT.html">GIT</a></li>
                             <li><a href="../views/VSCode.html">VSCode</a></li>
                             <li><a href="../views/AgileScrum.html">Agile/Scrum</a></li>
-                            <li class="../views/HtmlTags.html"><a href="">HTML tags</a></li>
+                            <li ><a href="../views/HtmlTags.html">HTML tags</a></li>
                             <li><a href="active">CSS Selektori</a></li>
                         </ul>
                     </li>
@@ -54,7 +54,22 @@
              <ul>
                  <li>".class" - izmantojot "." tiek piekļūts klasei, kas ir pieejama lapā </li>
                  <li>".class1.class2" - Piekļūst objektam lapā, kuram ir gan "class1", gan "class2", kā klase</li>
-             </ul>
+                 <li>".class1. class2" - Piekļūst objektiem "class2", kas ir elementa ar klasi "class1" pēcnācēji</li>
+                 <li>"#id" - izmantojot "#" tiek piekļūts elementam ar norādīto ID, kas ir pieejama lapā</li>
+                <li>"*" - izmantojot "*" var piekļūt visiem lapas elementiem</li>
+                <li>"p" - Piekļūst visiem "< p>" elementiem, kas ir lapā</li>
+                <li>"div.p" - Piekļūst visiem "< div" un "< p>" elementiem, kas ir lapā</li>
+                <li>"div p" - Piekļūst visiem "< p>" elementiem kas ir iekš "< div>" elementa, kas ir lapā</li>
+                <li>"div>p" - Piekļūst visiem "< p>" elementiem kuriem tiešais vecākais elements ir "< div>"</li>   
+                <li>"div+p" - Piekļūst visiem "< p>" elementiem kuri ir uzreiz aiz "< div>" elementa</li> 
+                <li>".not(p)" - Atlasa visus elementus, kas nav "< p>" </li>
+                <li>"p.first-child" - Atlasa visus "< p>" elementus, kas ir pirmie pēcnācēji vecāku elementam</li>
+                <li>"p.nth-child(2)" - Atlasa visus "< p>" elementus, kas ir otrie pēcnācēji vecāku elementam</li>
+                <li>"a:hover" - Atlasa saiti kad ar peli uzbrauc uz tās</li>
+            </ul>
+            <p>Ir vēl daudz un dažādi CSS selektori. Tos var apskatīt <a href= "https://www.w3schools.com/cssref/css_selectors.asp"> spiežot šeit </a></p>
+            <p>Ja ir vēlme patestēt un paskatīties, kuri elementi tiek izvelēti uz kuru CSS selektoru, tad 
+                    <a href= "https://www.w3schools.com/cssref/trysel.asp"> spidiet šeit </a></p>
              <ol>
                  <li>Nenumurets saraksts < ul> </li>
                  <li>Saraksta objekts < li> </li>
