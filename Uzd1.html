@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+           Uzdevums1
+        </title>
+        <style>        button {
+                font-family: 'helvetica neue', helvetica, sans-serif;
+                letter-spacing: 1px;
+                text-align: center;
+                border: 2px solid rgba(0,0,200,0.6);
+                background: rgba(0,0,200,0.3);
+                color: rgba(0,0,200,0.6);
+                box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+                border-radius: 10px;
+                padding: 3px 10px;
+                display: inline-block;
+                cursor: pointer;
+              }
+              </style>
+
+         
+    </head>
+    <body>
+            <button HTMLButtonElement.onclick="inc()">i+1</button>
+            <button HTMLButtonElement.onclick="dec()">i-1</button><br>
+            <button>Atbilde=</button><br>
+            Šeit ievadi i vērtību un gaidi rezultātu: <input type="number" id="vertiba" value="1" min="1"/>
+    </input><br>
+            <script type="text/javascript">
+
+            let i=document.getElementById('vertiba');
+                function inc() {
+    i=i+1;
+    print(i);
+}
+function dec() {
+    i=i-1;
+    print(i);
+}
+ //if (dec(i)<=0){
+                   // pazinojums = `${dec(i)} nav naturāls skaitlis`;
+                //} else {
+                   // pazinojums = dec(i);
+               // }
+function print(vertiba){
+    document.getElementById().innerHTML = vertiba;
+}
+       
+                </script>
+    </body>
+</html>
